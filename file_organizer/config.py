@@ -12,3 +12,11 @@ FILE_TYPES = {
     "music": [".mp3", ".wav", ".ogg", ".flac"],
     "others": []
 }
+
+# Duplicate detection settings
+DUPLICATE_HANDLING = {
+    "enabled": True,
+    "detection_method": "hash",  # options: name, size, hash
+    "handle_duplicates": "move",  # options: keep, move, delete
+    "duplicates_dir": os.path.join(BASE_DIR, "_duplicates")
+}
