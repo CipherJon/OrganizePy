@@ -20,3 +20,17 @@ DUPLICATE_HANDLING = {
     "handle_duplicates": "move",  # options: keep, move, delete
     "duplicates_dir": os.path.join(BASE_DIR, "_duplicates")
 }
+
+# Date-based organization settings
+DATE_ORGANIZATION = {
+    "enabled": False,
+    "use_creation_date": True,
+    "folder_format": "monthly",  # options: monthly, quarterly
+}
+
+# Date-based organization settings
+DATE_ORGANIZATION = {
+    "enabled": False,
+    "use_creation_date": True,
+    "folder_format": "monthly",  # options: monthly, quarterly
+}
